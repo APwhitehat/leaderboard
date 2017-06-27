@@ -14,6 +14,7 @@ gem 'jbuilder'
 gem 'will_paginate'
 
 group :development, :test do
+  gem 'rubocop', require: false
   gem 'sqlite3'
   gem 'webmock'
   gem 'byebug' , platform: :mri

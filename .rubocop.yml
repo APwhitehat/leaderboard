@@ -1,0 +1,15 @@
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  Include:
+      - 'db/migrate/*'
+
+  Exclude:
+      - 'db/*'
+
+Rails:
+  Enabled: true
+
+Metrics/LineLength:
+  # This will disable the rule completely, regardless what other options you put
+  Enabled: false
